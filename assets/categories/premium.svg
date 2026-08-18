@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#111111"/>
+      <stop offset="1" stop-color="#292929"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ffca05" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffca05" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <circle cx="900" cy="280" r="260" fill="url(#glow)"/>
+  <path d="M790 420 C760 330 820 305 850 240 C870 300 915 292 930 215 C990 300 1010 355 960 420Z"
+        fill="#ffca05" opacity=".9"/>
+  <circle cx="875" cy="430" r="9" fill="#fff8e6" opacity=".7"/>
+  <circle cx="920" cy="450" r="6" fill="#fff8e6" opacity=".5"/>
+  <text x="70" y="270" fill="#ffca05" font-family="Arial,sans-serif" font-size="88" font-weight="800">PREMIUM</text>
+  <text x="74" y="330" fill="#dddddd" font-family="Arial,sans-serif" font-size="28">Cortes especiales</text>
+  <text x="74" y="390" fill="#888888" font-family="Arial,sans-serif" font-size="20">IMAGEN DE REFERENCIA</text>
+</svg>
